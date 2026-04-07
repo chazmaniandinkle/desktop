@@ -1,0 +1,22 @@
+# Build
+build/
+*.app
+*.dmg
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Go
+*.exe
+*.test
+*.out
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp

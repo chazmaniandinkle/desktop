@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base styles */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #111827;
+}
+
+/* Terminal container styling */
+.terminal-container {
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+/* Ensure xterm fits properly */
+.xterm {
+  height: 100%;
+}
+
+.xterm-viewport {
+  overflow-y: auto !important;
+}
